@@ -1,6 +1,9 @@
 print("Welcome to Mad Libs Python edition")
+
 madlibs = ["1. Summer Trip", "2. Our Cafeteria", "3. Chocolate Bunny", "4. Birthday Party"]
-print(madlibs)
+for a in madlibs:
+    print(a)
+    
 person = int(input("Pick a number: "))
 
 while True == True:
